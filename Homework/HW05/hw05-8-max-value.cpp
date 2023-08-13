@@ -22,7 +22,6 @@
 */
 
 #include <stdio.h>
-
 int main() {
     int num1, num2, num3;
 
@@ -42,7 +41,7 @@ int main() {
     } else {
         printf("1st Number = %d\n", num1);
         printf("2nd Number = %d\n", num2);
-        printf("3rd Number = %d\n", num3);
+        printf("3rd Number = %d", num3);
         printf("The 3rd Number is the greatest among three\n");
     }//end if
 
